@@ -27,7 +27,7 @@ createApp({
         var a = document.getElementById("download");
         var file = new Blob([this.outputString], {type: 'text/json'});
         a.href = URL.createObjectURL(file);
-        a.download = 'wavs.txt';
+        a.download = 'list.txt';
       },
       importTxt() {
         var wavs = []
