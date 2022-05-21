@@ -18,7 +18,7 @@ createApp({
       outputTxt() {
           var outputString = ''
           this.wavs.forEach(function(wav, index){
-              outputString += `wavs/${index}.wav|${wav}\n`
+              outputString += `wavs/${index+1}.wav|${wav}\n`
           })
           this.outputString = outputString
           return outputString
